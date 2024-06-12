@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+   
+    font-family: "Roboto", sans-serif;
+   
+}
+
+#head{
+   text-align: center;
+   background-color: rgba(208, 255, 255, 0.986);
+    min-height: 30%;
+    
+}
+
+#head p{
+    margin: 15px;
+    padding-bottom: 20px;
+}
+
+
+
+#head img{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    margin-top: 5px;
+    border-radius: 50%;
+    
+    justify-content: center;
+}
+
+#about{
+    margin: 10px;
+   padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+   
+}
+
+#about h2,#about p{
+   margin: 10px;
+   padding: 10px;
+  
+}
+#skills{
+    margin: 10px;
+    padding: 10px;
+     background-color: white;
+     
+     border-radius: 10px;
+     
+}
+.learn {
+    display: inline-block;
+    background-color: rgba(208, 255, 255, 0.986) ;
+    border-radius: 5px;
+   
+}
+
+#skills h2,.learn{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+#exp{
+    margin: 10px;
+    padding: 10px;
+     background-color: white;
+     
+     border-radius: 10px;
+     
+}
+
+#exp h2,#exp h3, #exp  p{
+    margin: 10px;
+    padding: 10px;
+}
+#exp ul{
+    margin-left: 60px;
+}
+
+#foot{
+    margin: 10px;
+    padding: 10px;
+     background-color: rgba(208, 255, 255, 0.986);
+     text-align: center;
+     border-radius: 10px;
+     
+}
+#foot p , #footer h2{
+    margin: 10px;
+    padding: 10px;
+}
+
+@media screen and (max-width:600px)
+{
+    #head,#main,#foot{
+        width: 100%;
+    }
+}
