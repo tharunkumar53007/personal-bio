@@ -8,6 +8,7 @@ body{
     background-color: rgb(235, 235, 235);
    
     font-family: "Roboto", sans-serif;
+    width:100%
    
 }
 
@@ -15,7 +16,7 @@ body{
    text-align: center;
    background-color: rgba(208, 255, 255, 0.986);
     min-height: 30%;
-display:block;
+
 
     
 }
