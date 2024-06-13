@@ -105,6 +105,6 @@ body{
 @media screen and (max-width:600px)
 {
     #head,#main,#foot{
-        width: 100%;
+        
     }
 }
