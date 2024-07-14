@@ -34,7 +34,8 @@ body{
     align-items: center;
     margin-top: 5px;
     border-radius: 50%;
-    
+    object-fit: cover;
+    object-position: center;
     justify-content: center;
 }
 
